@@ -1,0 +1,69 @@
+:root{
+    --vermelho: #9e1d23;
+    --preta: #141414;
+    --dourado: rgb(163, 120, 0);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;   
+    box-sizing: border-box; 
+}
+
+/*Base*/
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+header .logo{
+    color: var(--vermelho);
+    font-family: "Arial black";
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:lightgray;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--dourado);
+}
+
+/*Tema Principal*/
+
+.tema-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(97, 7, 7, 0.726)100%), url('../img/stranger_.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.tema-principal .descricao{
+    margin-bottom: 20px;
+}
+
+.tema{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
