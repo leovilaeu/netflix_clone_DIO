@@ -22,7 +22,7 @@ header .container {
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -60,6 +60,7 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 20px;
     margin-top: 2%;
 }
@@ -80,6 +81,7 @@ header nav a:hover {
     border-radius: 3px;
     
     padding: 12px 17px;
+    margin-top: 1%;
     margin-right: 12px;
     font-size: 12px;
     transition: .4s ease all;
@@ -121,4 +123,9 @@ header nav a:hover {
     margin-top: 1%;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.carrossel-filmes .carrossel-series{
+    margin-top: 5px;
 }
